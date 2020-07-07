@@ -7,44 +7,37 @@
 
 /* tag selectors */
 body {
+  text-align: center;
   background-color: #162447;
   color: #32e0c4;
-  text-align: center;
 }
 
-
-
-img, h1{ /*all the headings and images are overlayed in the same postion and the visibility is changed by js*/
+/*all the headings are overlayed in the same postion and the visibility is changed by js*/
+h1{
   position: absolute;
   left: 0;
   right: 0;
-  margin:20px auto;
+  margin:0 auto;
+  font-size: 7rem;
 }
 
-img {
-    width: 50%;
-    height: auto;
+
+/* draw is declared statitc to control the flow of elements in the page*/
+.draw {
+  position: static;
 }
 
-h1 {
-  font-size: 8rem;
-}
 
-.container-fluid {
-
-}
 
 /* Id slectors */
 #top {
-  position: relative;
   font-family: 'Galada', cursive;
-  padding: 3% 10% 7%;
-  margin-bottom: 6%;
+  padding: 3% 10% 3%;
+  position: relative;
 }
 
 #middle {
-  padding: 0 30% 20%;
-  position: relative;
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
+  padding: 0 25% 5%;
 }

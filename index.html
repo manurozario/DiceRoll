@@ -13,18 +13,24 @@
 
 <body>
 
-  <!-- heading messages to be displayed -->
-  <section id="top">
-    <h1 class="header">Refresh Me</h1>
-    <h1 class="player1">🚩Player1 Wins!</h1>
-    <h1 class="player2">Player2 Wins!🚩</h1>
-    <h1 class="draw">Draw, try again.🤷‍♂️</h1>
-  </section>
+  <div class="container-fluid">
+    <div class="row">
 
-  <!-- middle section divided into two columns only if the screen is large otherwise 1 column -->
-  <section id="middle">
-    <div class="container-fluid">
-      <div class="row">
+
+
+      <!-- heading messages to be displayed -->
+      <div class="col-lg-12">
+          <h1 class="header">Refresh Me</h1>
+          <h1 class="player1">🚩Player1 Wins!</h1>
+          <h1 class="player2">Player2 Wins!🚩</h1>
+          <h1 class="draw">Draw, try again.🤷‍♂️</h1>
+
+      </div>
+
+
+      <!-- middle section divided into two columns only if the screen is large otherwise 1 column -->
+
+
         <div class="col-lg-6 plyr1">
           <p>Player 1</p>
           <img src="images/dice1.png" class="dice1" alt="dice rolled with number 1">
@@ -44,13 +50,14 @@
           <img src="images/dice5.png" class="dice5" alt="dice rolled with number 5">
           <img src="images/dice6.png" class="dice6" alt="dice rolled with number 6">
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="bottom">
-    <button class="btn btn-lg btn-danger" onClick="window.location.reload();">Roll Dice!</button>
-  </section>
+
+      <section id="bottom">
+        <button class="btn btn-lg btn-danger" onClick="window.location.reload();">Roll Dice!</button>
+      </section>
+
+    </div>
+  </div>
 
 </body>
 <footer>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Title of the page -->
+  <title>Dice Game</title>
+  <!-- Calling bootstrap, fonts from google and css respectively -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Galada&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- heading messages to be displayed -->
+  <section id="top">
+    <h1 class="header">Refresh Me</h1>
+    <h1 class="player1">🚩Player1 Wins!</h1>
+    <h1 class="player2">Player2 Wins!🚩</h1>
+    <h1 class="draw">Draw, try again.🤷‍♂️</h1>
+  </section>
+
+  <!-- middle section divided into two columns only if the screen is large otherwise 1 column -->
+  <section id="middle">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 plyr1">
+          <p>Player 1</p>
+          <img src="images/dice1.png" class="dice1" alt="dice rolled with number 1">
+          <img src="images/dice2.png" class="dice2" alt="dice rolled with number 2">
+          <img src="images/dice3.png" class="dice3" alt="dice rolled with number 3">
+          <img src="images/dice4.png" class="dice4" alt="dice rolled with number 4">
+          <img src="images/dice5.png" class="dice5" alt="dice rolled with number 5">
+          <img src="images/dice6.png" class="dice6" alt="dice rolled with number 6">
+        </div>
+
+        <div class="col-lg-6 plyr2">
+          <p>Player 2</p>
+          <img src="images/dice1.png" class="dice1" alt="dice rolled with number 1">
+          <img src="images/dice2.png" class="dice2" alt="dice rolled with number 2">
+          <img src="images/dice3.png" class="dice3" alt="dice rolled with number 3">
+          <img src="images/dice4.png" class="dice4" alt="dice rolled with number 4">
+          <img src="images/dice5.png" class="dice5" alt="dice rolled with number 5">
+          <img src="images/dice6.png" class="dice6" alt="dice rolled with number 6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="bottom">
+    <button class="btn btn-lg btn-danger" onClick="window.location.reload();">Roll Dice!</button>
+  </section>
+
+</body>
+<footer>
+  <!-- Calling the js -->
+  <script src="js/index.js" charset="utf-8"></script>
+</footer>
+
+</html>

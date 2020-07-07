@@ -1,0 +1,39 @@
+
+/* class to be called by the js */
+.visibility {
+  visibility: hidden;
+}
+
+
+/* tag selectors */
+body {
+  text-align: center;
+  background-color: #162447;
+  color: #32e0c4;
+}
+
+img, h1{ /*all the headings and images are overlayed in the same postion and the visibility is changed by js*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:20px auto;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+/* Id slectors */
+#top {
+  font-family: 'Galada', cursive;
+  padding: 3% 10% 7%;
+  position: relative;
+  margin-bottom: 6%;
+}
+
+#middle {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  position: relative;
+  padding: 0 30% 20%;
+}
